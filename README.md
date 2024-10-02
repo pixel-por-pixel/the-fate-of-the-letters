@@ -59,7 +59,7 @@ Invocar uma criatura: Cada jogador pode ter até 3 criaturas no campo ao mesmo t
 
 Usar uma carta de suporte (como habilidades especiais ou buffs).
 
-As criaturas podem ser invocadas sem custo, ou você pode criar uma mecânica de "pontos de energia", onde as criaturas mais poderosas custam mais energia para invocar. O jogador ganha um ponto de energia por turno, podendo acumular para invocações mais fortes.
+Cada carta precisará de um número de mana de acordo com a força da carta para ser invocada.
 
 4. Combate
 
