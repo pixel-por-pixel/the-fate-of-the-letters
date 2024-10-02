@@ -14,10 +14,14 @@ Música para confrontos- https://www.youtube.com/watch?v=Hvdfx9avekU&list=PLwJjx
 
 ### cidades
 CIDADE INICIAL: Veluna City – Uma cidade noturna, conhecida por seu céu estrelado e eventos à noite.
+
 CIDADE DECK ÁGUA: Aquafloris Village – Uma pequena vila próxima a rios e cachoeiras com muitas flores.
+
 CIDADE DECK FOGO: Solora Town – Uma cidade sempre ensolarada, com campos abertos e um clima agradável.
+
 CIDADE DECK PLANTA: Virelia Town – Uma cidade envolta por trepadeiras e plantas rasteiras que crescem em cada construção.
-CIDADE FINAL:Vortexia – Uma cidade localizada no coração de uma tormenta constante, com nuvens de tempestade e trovões rugindo ao redor.[[
+
+CIDADE FINAL:Vortexia – Uma cidade localizada no coração de uma tormenta constante, com nuvens de tempestade e trovões rugindo ao redor.
 
 ## Personagens
 
