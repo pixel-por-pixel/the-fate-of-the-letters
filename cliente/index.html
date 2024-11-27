@@ -397,7 +397,76 @@ THE FATE OF THE LETTERS
  
 [[ Água ]]
 [[ Fogo ]]
-[[ Planta ]]</tw-passagedata><tw-passagedata pid="12" name="Seguir carreira" tags="" position="100,1200" size="100,100"></tw-passagedata><tw-passagedata pid="13" name="Solora Town" tags="" position="700,675" size="100,100">Vamos para a nossa primeira [[Batalha Incendiária]]</tw-passagedata><tw-passagedata pid="14" name="Virelia Town" tags="" position="75,675" size="100,100">Vamos para nossa primeira [[Batalha Vegetal]]</tw-passagedata><tw-passagedata pid="15" name="treinador de Fogo" tags="" position="675,550" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
+[[ Planta ]]</tw-passagedata><tw-passagedata pid="12" name="Seguir carreira" tags="" position="100,1200" size="100,100">Faça o login no Google para adicionar TJL${tijolinhos} de crédito.
+
+[JavaScript]
+window.setup = {}
+
+setup.loadError = function (oError) {
+  throw new URIError(
+    &#39;The script &#39; + oError.target.src + &quot; didn&#39;t load correctly.&quot;
+  )
+}
+
+setup.loadScript = function (url, onloadFunction) {
+  const newScript = document.createElement(&#39;script&#39;)
+  newScript.onerror = setup.loadError
+  if (onloadFunction) {
+    newScript.onload = onloadFunction
+  }
+  document.head.appendChild(newScript)
+  newScript.async = true
+  newScript.src = url
+}
+
+setup.loadScript(&#39;https://accounts.google.com/gsi/client&#39;, () =&gt; {
+  google.accounts.id.initialize({
+    client_id: engine.state.get(&#39;GoogleClientID&#39;),
+    callback: (res) =&gt; {
+      if (res.error) {
+        console.error(res.error)
+      } else {
+        const url = &#39;https://feira-de-jogos.dev.br/api/v2/credit&#39;
+        const options = {
+          method: &#39;POST&#39;,
+          headers: {
+            &#39;Accept&#39;: &#39;application/json&#39;,
+            &#39;Authorization&#39;: `Bearer ${res.credential}`,
+            &#39;Content-Type&#39;: &#39;application/json&#39;
+          },
+          body: JSON.stringify({
+            product: engine.state.get(&#39;produto&#39;),
+            value: engine.state.get(&#39;tijolinhos&#39;)
+          })
+        }
+        const req = new Request(url, options)
+        
+        fetch(req)
+          .then((response) =&gt; {
+            if (response.ok) {
+              alert(&quot;Crédito realizado com sucesso!&quot;)
+              console.log(response.status)
+            } else {
+              if (response.status == 429){
+                alert(&quot;Falha: operação duplicada.&quot;)
+              } else {
+                alert(&quot;Erro ao realizar operação de crédito.&quot;)
+              }
+              console.error(response)
+            }
+          }
+        )
+      }
+    },
+  })
+
+  google.accounts.id.prompt((notification) =&gt; {
+    if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+      google.accounts.id.prompt()
+    }
+  })
+})
+[continued]</tw-passagedata><tw-passagedata pid="13" name="Solora Town" tags="" position="700,675" size="100,100">Vamos para a nossa primeira [[Batalha Incendiária]]</tw-passagedata><tw-passagedata pid="14" name="Virelia Town" tags="" position="75,675" size="100,100">Vamos para nossa primeira [[Batalha Vegetal]]</tw-passagedata><tw-passagedata pid="15" name="treinador de Fogo" tags="" position="675,550" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
 
 
 Como primeiro passo da jornada o treinador de criaturas místicas deve viajar em busca de conseguir mais criaturas para seu baralho.
