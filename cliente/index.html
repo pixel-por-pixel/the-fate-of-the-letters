@@ -219,67 +219,342 @@ ${i}`),b(i)}function $e(n,e=!1){return Ko(zo(n),An(),Pn(),e)}class Yo extends fe
 :root{--font-monospace: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;--font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}*{box-sizing:border-box}body{margin:0;padding:0}code{font-family:var(--font-monospace)}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}noscript{align-items:center;background:black;color:#fff;display:flex;height:100vh;font-family:var(--font-system);justify-content:center;width:100vw}pre{font-family:var(--font-monospace);white-space:pre-wrap}tw-storydata{display:none}body.backstage-visible #backdrop{max-width:67vw}backstage-sidebar{--backstage-grid: 10px;background:var(--color-gray-2);border-left:1px solid var(--color-gray-3);bottom:0;color:var(--color-gray-5);display:block;font-family:var(--font-system);font-size:13px;position:fixed;top:0;right:0;width:33vw}backstage-sidebar .content{overflow:auto;padding:var(--backstage-grid);height:100%;width:100%}backstage-sidebar[collapsed]{width:0}backstage-sidebar button[data-toggle-collapsed]{background:var(--color-gray-2);border-bottom:1px solid var(--color-gray-3);border-left:1px solid var(--color-gray-3);border-right:none;border-top:1px solid var(--color-gray-3);border-radius:60px 0 0 60px;color:var(--color-gray-5);font-size:20px;height:60px;min-width:30px;padding:0;position:absolute;top:50%;left:-30px;transform:translateY(-50%);width:30px}backstage-sidebar button[data-toggle-collapsed]:hover{background:var(--color-gray-1);cursor:pointer}backstage-sidebar button{background:var(--color-gray-1);border:1px solid var(--color-gray-3);border-radius:var(--backstage-grid);color:var(--color-gray-5);cursor:pointer;font-size:100%;min-width:40px;padding:calc(var(--backstage-grid) / 2)}backstage-sidebar button:disabled{color:var(--color-gray-3);cursor:not-allowed}backstage-sidebar button:not(:disabled):hover{background:white}backstage-sidebar details summary{cursor:pointer;font-size:110%;font-variant:small-caps;padding:calc(var(--backstage-grid) / 2) 0;text-transform:lowercase}backstage-sidebar input,backstage-sidebar textarea{background:var(--color-gray-1);border:1px solid var(--color-gray-3);color:var(--color-gray-5);font:100% var(--font-system);padding:calc(var(--backstage-grid) / 2)}backstage-sidebar table{max-width:100%;width:100%}backstage-history-table button{display:block;width:100%}backstage-history-table table{border-collapse:collapse;margin:var(--backstage-grid) 0;table-layout:fixed}backstage-history-table thead{height:1px;left:-10000px;overflow:hidden;position:absolute;top:auto;width:1px}backstage-history-table tr:not(:last-child){border-bottom:1px solid var(--oc-gray-8)}backstage-history-table td{text-overflow:ellipsis;overflow-wrap:break-word;padding:calc(var(--backstage-grid) / 2);vertical-align:top}backstage-history-table td:first-child{border-right:1px solid var(--oc-gray-8);width:45%}backstage-notes label{display:block;margin-top:var(--backstage-grid)}backstage-notes textarea{height:10em;margin:var(--backstage-grid) 0;width:100%}backstage-notes .actions{display:flex;gap:var(--backstage-grid)}backstage-notes .actions button{flex-grow:1}backstage-state-snapshots button[data-add-snapshot]{width:100%}backstage-state-snapshots .snapshot-button{display:flex;margin-bottom:var(--backstage-grid)}backstage-state-snapshots .snapshot-button [data-restore]{flex-grow:1;border-right-color:var(--oc-gray-4);border-bottom-right-radius:0;border-top-right-radius:0}backstage-state-snapshots .snapshot-button [data-remove]{border-left:none;border-bottom-left-radius:0;border-top-left-radius:0}backstage-state-variables .variables{display:flex;flex-direction:column;gap:calc(var(--backstage-grid) / 2);margin:calc(var(--backstage-grid)) 0}backstage-state-variables .variables label{align-items:center;display:grid;gap:var(--backstage-grid);grid-template-columns:15em 1fr}backstage-style-config textarea{height:10em;margin:var(--backstage-grid) 0;width:100%}backstage-style-group label{display:grid;gap:.25em;margin-bottom:.5em}backstage-style-theme p{margin:0 0 .5em}backstage-tab{border-left:1px solid var(--color-gray-3);cursor:pointer;flex-grow:1;padding:calc(var(--backstage-grid) / 2);text-align:center}backstage-tab:hover{background:white}backstage-tab:first-child{border-left:none;border-bottom-left-radius:var(--backstage-grid);border-top-left-radius:var(--backstage-grid)}backstage-tab:last-child{border-bottom-right-radius:var(--backstage-grid);border-top-right-radius:var(--backstage-grid)}backstage-tab[aria-selected=true]{background-color:#fff;cursor:default;font-weight:700}backstage-tab-panel{display:block;padding:calc(var(--backstage-grid) / 2) 0}backstage-tab-panel[hidden]{display:none}backstage-tabs{background:var(--color-gray-1);border:1px solid var(--color-gray-3);border-radius:var(--backstage-grid);display:flex}backstage-variable-input input{display:inline-block;width:100%}#backdrop{align-items:center;background-color:var(--backdrop-color);display:flex;justify-content:center;min-height:100vh}#page>header,#page>footer{display:flex;justify-content:space-between}#page>header[hidden],#page>footer[hidden]{border:none}#page>header .center,#page>footer .center{text-align:center}#page>header .right,#page>footer .right{text-align:right}#page>footer{background-color:var(--page-footer-background-color);border-top:var(--page-footer-border);color:var(--page-footer-color);font-family:var(--page-footer-font-family);font-size:var(--page-footer-font-size);font-style:var(--page-footer-font-style);font-variant:var(--page-footer-font-variant);font-weight:var(--page-footer-font-weight);text-decoration:var(--page-footer-text-decoration);text-decoration-color:var(--page-footer-text-decoration-color);text-transform:var(--page-footer-text-transform)}#page>footer .link{background-color:var(--page-footer-link-background-color);color:var(--page-footer-link-color);font-family:var(--page-footer-link-font-family);font-size:var(--page-footer-link-font-size);font-style:var(--page-footer-link-font-style);font-variant:var(--page-footer-link-font-variant);font-weight:var(--page-footer-link-font-weight);text-decoration:var(--page-footer-link-text-decoration);text-decoration-color:var(--page-footer-link-text-decoration-color);text-transform:var(--page-footer-link-text-transform)}#page>footer .link:hover{background-color:var(--page-footer-link-active-background-color);color:var(--page-footer-link-active-color);font-family:var(--page-footer-link-active-font-family);font-size:var(--page-footer-link-active-font-size);font-style:var(--page-footer-link-active-font-style);font-variant:var(--page-footer-link-active-font-variant);font-weight:var(--page-footer-link-active-font-weight);text-decoration:var(--page-footer-link-active-text-decoration);text-decoration-color:var( --page-footer-link-active-text-decoration-color );text-transform:var(--page-footer-link-active-text-transform)}#page>header{background-color:var(--page-header-background-color);border-bottom:var(--page-header-border);color:var(--page-header-color);font-family:var(--page-header-font-family);font-size:var(--page-header-font-size);font-style:var(--page-header-font-style);font-variant:var(--page-header-font-variant);font-weight:var(--page-header-font-weight);text-decoration:var(--page-header-text-decoration);text-decoration-color:var(--page-header-text-decoration-color);text-transform:var(--page-header-text-transform)}#page>header .link{background-color:var(--page-header-link-background-color);color:var(--page-header-link-color);font-family:var(--page-header-link-font-family);font-size:var(--page-header-link-font-size);font-style:var(--page-header-link-font-style);font-variant:var(--page-header-link-font-variant);font-weight:var(--page-header-link-font-weight);text-decoration:var(--page-header-link-text-decoration);text-decoration-color:var(--page-header-link-text-decoration-color);text-transform:var(--page-header-link-text-transform)}#page>header .link:hover{background-color:var(--page-header-link-active-background-color);color:var(--page-header-link-active-color);font-family:var(--page-header-link-active-font-family);font-size:var(--page-header-link-active-font-size);font-style:var(--page-header-link-active-font-style);font-variant:var(--page-header-link-active-font-variant);font-weight:var(--page-header-link-active-font-weight);text-decoration:var(--page-header-link-active-text-decoration);text-decoration-color:var( --page-header-link-active-text-decoration-color );text-transform:var(--page-header-link-active-text-transform)}#page{background-color:var(--page-background-color);border:var(--page-border);border-radius:3px;box-shadow:var(--page-box-shadow);color:var(--page-color);display:grid;font-family:var(--page-font-family);font-size:var(--page-font-size);font-style:var(--page-font-style);font-variant:var(--page-font-variant);font-weight:var(--page-font-weight);grid-template-areas:"header" "body" "footer";grid-template-rows:min-content 1fr min-content;line-height:150%;margin:1em;max-width:calc(100vw - 2em);min-height:calc(100vh - 2em);padding:2em 4em;position:relative;text-decoration:var(--page-text-decoration);text-transform:var(--page-text-transform);width:40em}#page hr{border:none}#page hr:after{content:"* \a0* \a0*";display:block;text-align:center}#page page-skip-indicator{position:absolute;bottom:0;right:0}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p .link{display:block;flex-grow:1;text-align:center;padding:.5em}#page .fork p .link+.link{border-top:var(--page-fork-divider-size) var(--page-fork-divider-style) var(--page-fork-divider-color)}#page .link{background-color:var(--page-link-background-color);color:var(--page-link-color);cursor:pointer;font-family:var(--page-link-font-family);font-size:var(--page-link-font-size);font-style:var(--page-link-font-style);font-variant:var(--page-link-font-variant);font-weight:var(--page-link-font-weight);text-decoration:var(--page-link-text-decoration);text-decoration-color:var(--page-link-text-decoration-color);text-transform:var(--page-link-text-transform)}#page .link:hover{background-color:var(--page-link-active-background-color);color:var(--page-link-active-color);font-family:var(--page-link-font-family);font-size:var(--page-link-font-size);font-style:var(--page-link-font-style);font-variant:var(--page-link-font-variant);font-weight:var(--page-link-font-weight);text-decoration:var(--page-link-text-decoration);text-decoration-color:var(--page-link-text-decoration-color);text-transform:var(--page-link-text-transform)}#page .small-caps{font-variant:small-caps;text-transform:lowercase}#page>footer{grid-area:footer}#page>header{grid-area:header}#page>article{display:flex;flex-direction:column;flex-grow:1;grid-area:body;justify-content:var(--page-current-passage-justify-content)}#page>error-handler{grid-area:body;position:relative;z-index:2}@media screen and (max-width: 768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}.fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}@keyframes fade-in{0%{opacity:0}to{opacity:1}}error-handler{display:none}error-handler.active{background:var(--color-red-1);color:var(--color-red-5);display:block;font-family:var(--font-system);font-size:max(90%,16px);padding:.5em;border-left:4px solid var(--color-red-2);position:relative;margin:1em 0;overflow:auto}error-handler pre{font-size:90%}error-handler a{color:var(--color-red-4)}error-handler button{appearance:none;background:none;border:none;color:var(--color-red-4);cursor:pointer;padding:0}external-fonts{display:none}page-skip{display:block}page-skip-indicator{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%09%3crect width='38' height='72' x='31' y='14' fill='%23fff' rx='4' /%3e%09%3ccircle cx='50' cy='50' r='28' fill='%23fff' /%3e%09%3crect%09%09width='30'%09%09height='64'%09%09x='35'%09%09y='18'%09%09fill='%23fff'%09%09stroke='%23000'%09%09stroke-width='2'%09%09rx='4'%09/%3e%09%3ccircle%09%09cx='50'%09%09cy='50'%09%09r='20'%09%09fill='%23fff'%09%09stroke='%23000'%09%09stroke-width='2'%09/%3e%09%3cpath%09%09stroke='%23000'%09%09stroke-linecap='round'%09%09stroke-width='2'%09%09d='M50 50V37'%09%3e%09%09%3canimateTransform%09%09%09attributeName='transform'%09%09%09begin='0s'%09%09%09dur='20s'%09%09%09from='0 50 50'%09%09%09repeatCount='indefinite'%09%09%09to='360 50 50'%09%09%09type='rotate'%09%09/%3e%09%3c/path%3e%09%3cpath%09%09stroke='%23000'%09%09stroke-linecap='round'%09%09stroke-width='2'%09%09d='M50 50h-8'%09%3e%09%09%3canimateTransform%09%09%09attributeName='transform'%09%09%09begin='0s'%09%09%09dur='120s'%09%09%09from='0 50 50'%09%09%09repeatCount='indefinite'%09%09%09to='360 50 50'%09%09%09type='rotate'%09%09/%3e%09%3c/path%3e%3c/svg%3e");background-size:contain;display:block;height:50px;opacity:0;pointer-events:none;transition:opacity .3s;width:50px}page-skip-indicator[active]{opacity:1}::view-transition-old(root),::view-transition-new(root){animation-duration:var(--page-transition-duration)}page-transition{display:block}:root{--oc-white: #ffffff;--oc-white-rgb: 255, 255, 255;--oc-black: #000000;--oc-black-rgb: 0, 0, 0;--oc-gray-0: #f8f9fa;--oc-gray-0-rgb: 248, 249, 250;--oc-gray-1: #f1f3f5;--oc-gray-1-rgb: 241, 243, 245;--oc-gray-2: #e9ecef;--oc-gray-2-rgb: 233, 236, 239;--oc-gray-3: #dee2e6;--oc-gray-3-rgb: 222, 226, 230;--oc-gray-4: #ced4da;--oc-gray-4-rgb: 206, 212, 218;--oc-gray-5: #adb5bd;--oc-gray-5-rgb: 173, 181, 189;--oc-gray-6: #868e96;--oc-gray-6-rgb: 134, 142, 150;--oc-gray-7: #495057;--oc-gray-7-rgb: 73, 80, 87;--oc-gray-8: #343a40;--oc-gray-8-rgb: 52, 58, 64;--oc-gray-9: #212529;--oc-gray-9-rgb: 33, 37, 41;--oc-red-0: #fff5f5;--oc-red-0-rgb: 255, 245, 245;--oc-red-1: #ffe3e3;--oc-red-1-rgb: 255, 227, 227;--oc-red-2: #ffc9c9;--oc-red-2-rgb: 255, 201, 201;--oc-red-3: #ffa8a8;--oc-red-3-rgb: 255, 168, 168;--oc-red-4: #ff8787;--oc-red-4-rgb: 255, 135, 135;--oc-red-5: #ff6b6b;--oc-red-5-rgb: 255, 107, 107;--oc-red-6: #fa5252;--oc-red-6-rgb: 250, 82, 82;--oc-red-7: #f03e3e;--oc-red-7-rgb: 240, 62, 62;--oc-red-8: #e03131;--oc-red-8-rgb: 224, 49, 49;--oc-red-9: #c92a2a;--oc-red-9-rgb: 201, 42, 42;--oc-pink-0: #fff0f6;--oc-pink-0-rgb: 255, 240, 246;--oc-pink-1: #ffdeeb;--oc-pink-1-rgb: 255, 222, 235;--oc-pink-2: #fcc2d7;--oc-pink-2-rgb: 252, 194, 215;--oc-pink-3: #faa2c1;--oc-pink-3-rgb: 250, 162, 193;--oc-pink-4: #f783ac;--oc-pink-4-rgb: 247, 131, 172;--oc-pink-5: #f06595;--oc-pink-5-rgb: 240, 101, 149;--oc-pink-6: #e64980;--oc-pink-6-rgb: 230, 73, 128;--oc-pink-7: #d6336c;--oc-pink-7-rgb: 214, 51, 108;--oc-pink-8: #c2255c;--oc-pink-8-rgb: 194, 37, 92;--oc-pink-9: #a61e4d;--oc-pink-9-rgb: 166, 30, 77;--oc-grape-0: #f8f0fc;--oc-grape-0-rgb: 248, 240, 252;--oc-grape-1: #f3d9fa;--oc-grape-1-rgb: 243, 217, 250;--oc-grape-2: #eebefa;--oc-grape-2-rgb: 238, 190, 250;--oc-grape-3: #e599f7;--oc-grape-3-rgb: 229, 153, 247;--oc-grape-4: #da77f2;--oc-grape-4-rgb: 218, 119, 242;--oc-grape-5: #cc5de8;--oc-grape-5-rgb: 204, 93, 232;--oc-grape-6: #be4bdb;--oc-grape-6-rgb: 190, 75, 219;--oc-grape-7: #ae3ec9;--oc-grape-7-rgb: 174, 62, 201;--oc-grape-8: #9c36b5;--oc-grape-8-rgb: 156, 54, 181;--oc-grape-9: #862e9c;--oc-grape-9-rgb: 134, 46, 156;--oc-violet-0: #f3f0ff;--oc-violet-0-rgb: 243, 240, 255;--oc-violet-1: #e5dbff;--oc-violet-1-rgb: 229, 219, 255;--oc-violet-2: #d0bfff;--oc-violet-2-rgb: 208, 191, 255;--oc-violet-3: #b197fc;--oc-violet-3-rgb: 177, 151, 252;--oc-violet-4: #9775fa;--oc-violet-4-rgb: 151, 117, 250;--oc-violet-5: #845ef7;--oc-violet-5-rgb: 132, 94, 247;--oc-violet-6: #7950f2;--oc-violet-6-rgb: 121, 80, 242;--oc-violet-7: #7048e8;--oc-violet-7-rgb: 112, 72, 232;--oc-violet-8: #6741d9;--oc-violet-8-rgb: 103, 65, 217;--oc-violet-9: #5f3dc4;--oc-violet-9-rgb: 95, 61, 196;--oc-indigo-0: #edf2ff;--oc-indigo-0-rgb: 237, 242, 255;--oc-indigo-1: #dbe4ff;--oc-indigo-1-rgb: 219, 228, 255;--oc-indigo-2: #bac8ff;--oc-indigo-2-rgb: 186, 200, 255;--oc-indigo-3: #91a7ff;--oc-indigo-3-rgb: 145, 167, 255;--oc-indigo-4: #748ffc;--oc-indigo-4-rgb: 116, 143, 252;--oc-indigo-5: #5c7cfa;--oc-indigo-5-rgb: 92, 124, 250;--oc-indigo-6: #4c6ef5;--oc-indigo-6-rgb: 76, 110, 245;--oc-indigo-7: #4263eb;--oc-indigo-7-rgb: 66, 99, 235;--oc-indigo-8: #3b5bdb;--oc-indigo-8-rgb: 59, 91, 219;--oc-indigo-9: #364fc7;--oc-indigo-9-rgb: 54, 79, 199;--oc-blue-0: #e7f5ff;--oc-blue-0-rgb: 231, 245, 255;--oc-blue-1: #d0ebff;--oc-blue-1-rgb: 208, 235, 255;--oc-blue-2: #a5d8ff;--oc-blue-2-rgb: 165, 216, 255;--oc-blue-3: #74c0fc;--oc-blue-3-rgb: 116, 192, 252;--oc-blue-4: #4dabf7;--oc-blue-4-rgb: 77, 171, 247;--oc-blue-5: #339af0;--oc-blue-5-rgb: 51, 154, 240;--oc-blue-6: #228be6;--oc-blue-6-rgb: 34, 139, 230;--oc-blue-7: #1c7ed6;--oc-blue-7-rgb: 28, 126, 214;--oc-blue-8: #1971c2;--oc-blue-8-rgb: 25, 113, 194;--oc-blue-9: #1864ab;--oc-blue-9-rgb: 24, 100, 171;--oc-cyan-0: #e3fafc;--oc-cyan-0-rgb: 227, 250, 252;--oc-cyan-1: #c5f6fa;--oc-cyan-1-rgb: 197, 246, 250;--oc-cyan-2: #99e9f2;--oc-cyan-2-rgb: 153, 233, 242;--oc-cyan-3: #66d9e8;--oc-cyan-3-rgb: 102, 217, 232;--oc-cyan-4: #3bc9db;--oc-cyan-4-rgb: 59, 201, 219;--oc-cyan-5: #22b8cf;--oc-cyan-5-rgb: 34, 184, 207;--oc-cyan-6: #15aabf;--oc-cyan-6-rgb: 21, 170, 191;--oc-cyan-7: #1098ad;--oc-cyan-7-rgb: 16, 152, 173;--oc-cyan-8: #0c8599;--oc-cyan-8-rgb: 12, 133, 153;--oc-cyan-9: #0b7285;--oc-cyan-9-rgb: 11, 114, 133;--oc-teal-0: #e6fcf5;--oc-teal-0-rgb: 230, 252, 245;--oc-teal-1: #c3fae8;--oc-teal-1-rgb: 195, 250, 232;--oc-teal-2: #96f2d7;--oc-teal-2-rgb: 150, 242, 215;--oc-teal-3: #63e6be;--oc-teal-3-rgb: 99, 230, 190;--oc-teal-4: #38d9a9;--oc-teal-4-rgb: 56, 217, 169;--oc-teal-5: #20c997;--oc-teal-5-rgb: 32, 201, 151;--oc-teal-6: #12b886;--oc-teal-6-rgb: 18, 184, 134;--oc-teal-7: #0ca678;--oc-teal-7-rgb: 12, 166, 120;--oc-teal-8: #099268;--oc-teal-8-rgb: 9, 146, 104;--oc-teal-9: #087f5b;--oc-teal-9-rgb: 8, 127, 91;--oc-green-0: #ebfbee;--oc-green-0-rgb: 235, 251, 238;--oc-green-1: #d3f9d8;--oc-green-1-rgb: 211, 249, 216;--oc-green-2: #b2f2bb;--oc-green-2-rgb: 178, 242, 187;--oc-green-3: #8ce99a;--oc-green-3-rgb: 140, 233, 154;--oc-green-4: #69db7c;--oc-green-4-rgb: 105, 219, 124;--oc-green-5: #51cf66;--oc-green-5-rgb: 81, 207, 102;--oc-green-6: #40c057;--oc-green-6-rgb: 64, 192, 87;--oc-green-7: #37b24d;--oc-green-7-rgb: 55, 178, 77;--oc-green-8: #2f9e44;--oc-green-8-rgb: 47, 158, 68;--oc-green-9: #2b8a3e;--oc-green-9-rgb: 43, 138, 62;--oc-lime-0: #f4fce3;--oc-lime-0-rgb: 244, 252, 227;--oc-lime-1: #e9fac8;--oc-lime-1-rgb: 233, 250, 200;--oc-lime-2: #d8f5a2;--oc-lime-2-rgb: 216, 245, 162;--oc-lime-3: #c0eb75;--oc-lime-3-rgb: 192, 235, 117;--oc-lime-4: #a9e34b;--oc-lime-4-rgb: 169, 227, 75;--oc-lime-5: #94d82d;--oc-lime-5-rgb: 148, 216, 45;--oc-lime-6: #82c91e;--oc-lime-6-rgb: 130, 201, 30;--oc-lime-7: #74b816;--oc-lime-7-rgb: 116, 184, 22;--oc-lime-8: #66a80f;--oc-lime-8-rgb: 102, 168, 15;--oc-lime-9: #5c940d;--oc-lime-9-rgb: 92, 148, 13;--oc-yellow-0: #fff9db;--oc-yellow-0-rgb: 255, 249, 219;--oc-yellow-1: #fff3bf;--oc-yellow-1-rgb: 255, 243, 191;--oc-yellow-2: #ffec99;--oc-yellow-2-rgb: 255, 236, 153;--oc-yellow-3: #ffe066;--oc-yellow-3-rgb: 255, 224, 102;--oc-yellow-4: #ffd43b;--oc-yellow-4-rgb: 255, 212, 59;--oc-yellow-5: #fcc419;--oc-yellow-5-rgb: 252, 196, 25;--oc-yellow-6: #fab005;--oc-yellow-6-rgb: 250, 176, 5;--oc-yellow-7: #f59f00;--oc-yellow-7-rgb: 245, 159, 0;--oc-yellow-8: #f08c00;--oc-yellow-8-rgb: 240, 140, 0;--oc-yellow-9: #e67700;--oc-yellow-9-rgb: 230, 119, 0;--oc-orange-0: #fff4e6;--oc-orange-0-rgb: 255, 244, 230;--oc-orange-1: #ffe8cc;--oc-orange-1-rgb: 255, 232, 204;--oc-orange-2: #ffd8a8;--oc-orange-2-rgb: 255, 216, 168;--oc-orange-3: #ffc078;--oc-orange-3-rgb: 255, 192, 120;--oc-orange-4: #ffa94d;--oc-orange-4-rgb: 255, 169, 77;--oc-orange-5: #ff922b;--oc-orange-5-rgb: 255, 146, 43;--oc-orange-6: #fd7e14;--oc-orange-6-rgb: 253, 126, 20;--oc-orange-7: #f76707;--oc-orange-7-rgb: 247, 103, 7;--oc-orange-8: #e8590c;--oc-orange-8-rgb: 232, 89, 12;--oc-orange-9: #d9480f;--oc-orange-9-rgb: 217, 72, 15}/*! reasonable colors v0.4.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */:root{--color-gray-1: #f6f6f6;--color-gray-2: #e2e2e2;--color-gray-3: #8b8b8b;--color-gray-4: #6f6f6f;--color-gray-5: #3e3e3e;--color-gray-6: #222222;--color-rose-1: #fff7f9;--color-rose-2: #ffdce5;--color-rose-3: #ff3b8d;--color-rose-4: #db0072;--color-rose-5: #800040;--color-rose-6: #4c0023;--color-raspberry-1: #fff8f8;--color-raspberry-2: #ffdddf;--color-raspberry-3: #ff426c;--color-raspberry-4: #de0051;--color-raspberry-5: #82002c;--color-raspberry-6: #510018;--color-red-1: #fff8f6;--color-red-2: #ffddd8;--color-red-3: #ff4647;--color-red-4: #e0002b;--color-red-5: #830014;--color-red-6: #530003;--color-orange-1: #fff8f5;--color-orange-2: #ffded1;--color-orange-3: #fd4d00;--color-orange-4: #cd3c00;--color-orange-5: #752100;--color-orange-6: #401600;--color-cinnamon-1: #fff8f3;--color-cinnamon-2: #ffdfc6;--color-cinnamon-3: #d57300;--color-cinnamon-4: #ac5c00;--color-cinnamon-5: #633300;--color-cinnamon-6: #371d00;--color-amber-1: #fff8ef;--color-amber-2: #ffe0b2;--color-amber-3: #b98300;--color-amber-4: #926700;--color-amber-5: #523800;--color-amber-6: #302100;--color-yellow-1: #fff9e5;--color-yellow-2: #ffe53e;--color-yellow-3: #9c8b00;--color-yellow-4: #7d6f00;--color-yellow-5: #463d00;--color-yellow-6: #292300;--color-lime-1: #f7ffac;--color-lime-2: #d5f200;--color-lime-3: #819300;--color-lime-4: #677600;--color-lime-5: #394100;--color-lime-6: #222600;--color-chartreuse-1: #e5ffc3;--color-chartreuse-2: #98fb00;--color-chartreuse-3: #5c9b00;--color-chartreuse-4: #497c00;--color-chartreuse-5: #264500;--color-chartreuse-6: #182600;--color-green-1: #e0ffd9;--color-green-2: #72ff6c;--color-green-3: #00a21f;--color-green-4: #008217;--color-green-5: #004908;--color-green-6: #062800;--color-emerald-1: #dcffe6;--color-emerald-2: #5dffa2;--color-emerald-3: #00a05a;--color-emerald-4: #008147;--color-emerald-5: #004825;--color-emerald-6: #002812;--color-aquamarine-1: #daffef;--color-aquamarine-2: #42ffc6;--color-aquamarine-3: #009f78;--color-aquamarine-4: #007f5f;--color-aquamarine-5: #004734;--color-aquamarine-6: #00281b;--color-teal-1: #d7fff7;--color-teal-2: #00ffe4;--color-teal-3: #009e8c;--color-teal-4: #007c6e;--color-teal-5: #00443c;--color-teal-6: #002722;--color-cyan-1: #c4fffe;--color-cyan-2: #00fafb;--color-cyan-3: #00999a;--color-cyan-4: #007a7b;--color-cyan-5: #004344;--color-cyan-6: #002525;--color-powder-1: #dafaff;--color-powder-2: #8df0ff;--color-powder-3: #0098a9;--color-powder-4: #007987;--color-powder-5: #004048;--color-powder-6: #002227;--color-sky-1: #e3f7ff;--color-sky-2: #aee9ff;--color-sky-3: #0094b4;--color-sky-4: #007590;--color-sky-5: #00404f;--color-sky-6: #001f28;--color-cerulean-1: #e8f6ff;--color-cerulean-2: #b9e3ff;--color-cerulean-3: #0092c5;--color-cerulean-4: #00749d;--color-cerulean-5: #003c54;--color-cerulean-6: #001d2a;--color-azure-1: #e8f2ff;--color-azure-2: #c6e0ff;--color-azure-3: #008fdb;--color-azure-4: #0071af;--color-azure-5: #003b5e;--color-azure-6: #001c30;--color-blue-1: #f0f4ff;--color-blue-2: #d4e0ff;--color-blue-3: #0089fc;--color-blue-4: #006dca;--color-blue-5: #00386d;--color-blue-6: #001a39;--color-indigo-1: #f3f3ff;--color-indigo-2: #deddff;--color-indigo-3: #657eff;--color-indigo-4: #0061fc;--color-indigo-5: #00328a;--color-indigo-6: #001649;--color-violet-1: #f7f1ff;--color-violet-2: #e8daff;--color-violet-3: #9b70ff;--color-violet-4: #794aff;--color-violet-5: #2d0fbf;--color-violet-6: #0b0074;--color-purple-1: #fdf4ff;--color-purple-2: #f7d9ff;--color-purple-3: #d150ff;--color-purple-4: #b01fe3;--color-purple-5: #660087;--color-purple-6: #3a004f;--color-magenta-1: #fff3fc;--color-magenta-2: #ffd7f6;--color-magenta-3: #f911e0;--color-magenta-4: #ca00b6;--color-magenta-5: #740068;--color-magenta-6: #44003c;--color-pink-1: #fff7fb;--color-pink-2: #ffdcec;--color-pink-3: #ff2fb2;--color-pink-4: #d2008f;--color-pink-5: #790051;--color-pink-6: #4b0030}warning-list{background:var(--color-yellow-1);border-left:4px solid var(--color-yellow-2);color:var(--color-yellow-4);display:block;font-family:var(--font-system);padding:.5em}warning-list[hidden]{display:none}warning-list ul{list-style-type:none;margin:0;padding-left:0}inline-button{cursor:pointer}
 
 </style>
-<link rel=""manisfest" href="./manifest.json">
+<link rel=""manifest" href="./manifest.json"
 </head>
-
-<body><state-css-variables><state-dark-theme-css-overrides><div id="backdrop"><page-skip><page-transition><div id="page" aria-live="polite"><header hidden></header><article></article><warning-list></warning-list><footer hidden></footer><error-handler></error-handler><page-skip-indicator></page-skip-indicator></div></page-transition></page-skip></div></state-dark-theme-css-overrides></state-css-variables><external-fonts></external-fonts><noscript>This requires JavaScript.</noscript></body><tw-storydata name="jogo" startnode="20" creator="Twine" creator-version="2.10.0" format="Chapbook" format-version="2.3.0" ifid="C5C12DAD-2F83-4CB9-88D8-6838F82A3E14" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">    if ("serviceWorker" in navigator) {
+<body><state-css-variables><state-dark-theme-css-overrides><div id="backdrop"><page-skip><page-transition><div id="page" aria-live="polite"><header hidden></header><article></article><warning-list></warning-list><footer hidden></footer><error-handler></error-handler><page-skip-indicator></page-skip-indicator></div></page-transition></page-skip></div></state-dark-theme-css-overrides></state-css-variables><external-fonts></external-fonts><noscript>This requires JavaScript.</noscript></body><tw-storydata name="jogo" startnode="29" creator="Twine" creator-version="2.10.0" format="Chapbook" format-version="2.3.0" ifid="C5C12DAD-2F83-4CB9-88D8-6838F82A3E14" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">if ("serviceWorker" in navigator) {
       navigator.serviceWorker
         .register("./sw.js")
         .then((reg) => console.info("Service worker registered: ", reg))
         .catch((err) =>
           console.error("Error registering service worker: ", err)
         )
-    }</script><tw-passagedata pid="1" name=" Fogo " tags="" position="600,400" size="100,100">Uau, que surpresa!!
+    }</script><tw-passagedata pid="1" name=" Fogo " tags="" position="800,350" size="100,100">Uau, que surpresa!!
  
  Fogo é um forte oponente contra baralhos do tipo planta, causando dano extra. Sua criatura inicial é Villentretenmerth básico, Villentretenmerth é um raríssimo dragão da linhagem dourada, sua principal característica que lhe torna único além de suas escamas douradas, é a polimorfia, ele se transforma em várias outros seres, enquanto os dragões mais convencionais não podem assumir nenhuma. Seu poder muda conforme os níveis básico, avançado e superior.
 
 Após Ronan e Liona escolherem seu tipo de criatura para treinar, o professor disse que o tipo que havia sobrado iria a um jovem que não era muito conhecido em Veluna, mas que tinha potencial para ser um grande treinador. O professor comentou também que as criaturas são sumonadas a partir de baralhos de cartas místicas, e que para ter cada criatura precisa selar ela a uma carta que suporte a força da criatura. As criaturas iniciais tem seu primeiro nível chamado de básico, você pode juntar 3 criaturas básicas para fazer uma criatura avançada, e juntar 3 avançadas para fazer uma superior. 
 
-Assim começa sua jornada como [[treinador de Fogo]]</tw-passagedata><tw-passagedata pid="2" name=" Planta " tags="" position="100,400" size="100,100">Uau, que surpresa!!
+Assim começa sua jornada como [[treinador de Fogo]]</tw-passagedata><tw-passagedata pid="2" name=" Planta " tags="" position="200,275" size="100,100">Uau, que surpresa!!
  
  Planta é um forte oponente contra baralhos do tipo água, causando dano extra. Sua criatura inicial é Karaku básico, Karaku é um oni que usa um leque uchiwa em forma de folha, que pode gerar poderosas rajadas de vento, capazes de devastar tudo em seu caminho. Se destaca por sua força sobrenatural e sua regeneração rápida, porém os Oni queimam até a morte ao ser expostos ao sol. Seu poder muda conforme os níveis básico, avançado e superior.
  
  Após Ronan e Liona escolherem seu tipo de criatura para treinar, o professor disse que o tipo que havia sobrado iria a um jovem que não era muito conhecido em Veluna, mas que tinha potencial para ser um grande treinador. O professor comentou também que as criaturas são sumonadas a partir de baralhos de cartas místicas, e que para ter cada criatura precisa selar ela a uma carta que suporte a força da criatura. As criaturas iniciais tem seu primeiro nível chamado de básico, você pode juntar 3 criaturas básicas para fazer uma criatura avançada, e juntar 3 avançadas para fazer uma superior. 
 
-Assim começa sua jornada como [[treinador de planta]]</tw-passagedata><tw-passagedata pid="3" name=" Água " tags="" position="375,375" size="100,100">Uau, que surpresa!!
+Assim começa sua jornada como [[treinador de planta]]</tw-passagedata><tw-passagedata pid="3" name=" Água " tags="" position="500,375" size="100,100">Uau, que surpresa!!
  
  Água é um forte oponente contra baralhos do tipo fogo, causando dano extra. Sua criatura inicial é Leviatã básico, Leviatã é capaz de manipular plenamente a água, podendo simplesmente gerá-la a partir do nada e controlar seu fluxo, usando-a como base para diversas formas de utilização, como formar grandes ondas ou voar. Seu poder muda conforme os níveis básico, avançado e superior.
 
 Após Ronan e Liona escolherem seu tipo de criatura para treinar, o professor disse que o tipo que havia sobrado iria a um jovem que não era muito conhecido em Veluna, mas que tinha potencial para ser um grande treinador. O professor comentou também que as criaturas são sumonadas a partir de baralhos de cartas místicas, e que para ter cada criatura precisa selar ela a uma carta que suporte a força da criatura. As criaturas iniciais tem seu primeiro nível chamado de básico, você pode juntar 3 criaturas básicas para fazer uma criatura avançada, e juntar 3 avançadas para fazer uma superior. 
 
-Assim começa sua jornada como [[treinador de Água]]</tw-passagedata><tw-passagedata pid="4" name="Aquafloris Village" tags="" position="400,675" size="100,100">INÍCIO DA JORNADA!!
+Assim começa sua jornada como [[treinador de Água]]</tw-passagedata><tw-passagedata pid="4" name="Aceitar" tags="" position="450,1450" size="100,100">“Você recebeu 1x Leviatã avançado”
+
+[[continuar]]</tw-passagedata><tw-passagedata pid="5" name="Aquafloris Village" tags="" position="500,625" size="100,100">INÍCIO DA JORNADA!!
 
 No caminho para de Aquafloris Village o treinador chegou ao topo de uma cachoeira, quando se deparou com uma placa.
-A placa contém a seguinte mensagem: oque você procura está mais fundo do que imagina. O treinador então jogou sua carta de Leviatã básico, surpreendentemente aquela criatura assustadora não o atacou, e se mostrou disposto a servi-lo como um companheiro, rapidamente o treinador montou aquela criatura e pulou da cachoeira. O leviatã parecia conhecer o lugar e foi diretamente para o fundo do rio que dava continuidade aquela cachoeira, quando parecia que o Leviatã ia bater de frente com a areia no fundo do rio, uma passagem se abriu, e em um instante estava em um lugar completamente novo, uma pequena vila próxima a rios e cachoeiras com muitas flores, nos rios, todo tipo de criatura, algo que o jovem treinador jamais teria visto.
+A placa contém a seguinte mensagem: “oque você procura está mais fundo do que imagina”. O treinador então jogou sua carta de Leviatã básico, surpreendentemente aquela criatura assustadora não o atacou, e se mostrou disposto a servi-lo como um companheiro, rapidamente o treinador montou aquela criatura e pulou da cachoeira. O leviatã parecia conhecer o lugar e foi diretamente para o fundo do rio que dava continuidade aquela cachoeira, quando parecia que o Leviatã ia bater de frente com a areia no fundo do rio, uma passagem se abriu, e em um instante estava em um lugar completamente novo, uma pequena vila próxima a rios e cachoeiras com muitas flores, nos rios, todo tipo de criatura, algo que o jovem treinador jamais teria visto.
 
 Ao se aproximar da vila, se deparou com um homem pequeno, porém velho.
 
-Aquaris - “olá meu jovem, você deve ser o novo treinador do baralho de água, seja bem vindo à Aquafloris. O professor me falou de você, vejo que tem um Leviatã, eles são bem fortes e te dão mobilidade na água.
-Meu papel é te transformar em um verdadeiro treinador com fortes criaturas e com estratégias. Vejo que já conseguiu montar no seu Leviatã, o Leviatã consegue fazer coisas incríveis, se for bem treinado. Seu Leviatã tem 100 pontos de vida e 80 pontos de ataque, com 2 custos de mana, a mana é utilizada para usar suas criaturas em batalhas, usar as criaturas para mobilidade ou para destruição de obstáculos fora de batalha não tem custo de mana. Todo jogo você inicia com 3 de mana podendo acumular até 6, toda rodada você recebe 1 de mana. Algumas cartas de suporte te dão mana extra em certas situações, e essa é a base do jogo, você vence se derrotar todas as criaturas do seu oponente, ou suas cartas acabarem. O primeiro treinador a se mover é tirado no cara ou coroa”
+Aquaris - “olá meu jovem, eu sou Aquaris, você deve ser o novo treinador do baralho de água, seja bem vindo à Aquafloris. O professor me falou de você, vejo que tem um Leviatã, eles são bem fortes e te dão mobilidade na água.
+
+Meu papel é te transformar em um verdadeiro treinador com fortes criaturas e com estratégias. Vejo que já conseguiu montar no seu Leviatã, o Leviatã consegue fazer coisas incríveis, se for bem treinado. Seu Leviatã tem tem 100 pontos de vida e 80 pontos de ataque, você pode usar as criaturas para mobilidade ou para destruição de obstáculos fora de batalha. Durante a sua rodada você pode jogar sua criatura, mas só pode atacar na próxima rodada. Algumas cartas de suporte podem ajudar a recuperar sua criatura, e essa é a base do jogo, você vence se derrotar a criatura do seu oponente, ou ele desistir. O primeiro treinador a jogar é tirado no cara ou coroa”
 
 Aquaris - “para vermos se você entendeu como funcionam as regras vamos fazer uma batalha rápida”
 
 
 
-Vamos para nossa primeira [[Batalha Áquatica]]</tw-passagedata><tw-passagedata pid="5" name="Ataque 2" tags="" position="275,975" size="100,100">Foi quase, na próxima você consegue!
+
+Vamos para nossa primeira [[Batalha Áquatica]]</tw-passagedata><tw-passagedata pid="6" name="Arranhar" tags="" position="500,850" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
 
 Fim de Jogo!
 
-{restart link, label: &#39;Jogar de novo!&#39;}
-</tw-passagedata><tw-passagedata pid="6" name="Ataque 3" tags="" position="75,925" size="100,100">Você acabou de conquistar sua primeira vitória!
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="7" name="Ataque 2" tags="" position="300,700" size="100,100">Foi quase, na próxima você consegue!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="8" name="Ataque 3" tags="" position="75,700" size="100,100">Você acabou de conquistar sua primeira vitória!
  
- [[Seguir carreira]]</tw-passagedata><tw-passagedata pid="7" name="Ataque1" tags="" position="175,950" size="100,100">Foi quase, na próxima você consegue!
+ [[Seguir carreira]]</tw-passagedata><tw-passagedata pid="9" name="Ataque de Cauda" tags="" position="575,1850" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
 
 Fim de Jogo!
 
-{restart link, label: &#39;Jogar de novo!&#39;}
-</tw-passagedata><tw-passagedata pid="8" name="Batalha Incendiária" tags="" position="700,825" size="100,100">[[Ataque 40]]
-[[Ataque 50]]
-[[Ataque 60]]</tw-passagedata><tw-passagedata pid="9" name="Batalha Vegetal" tags="" position="75,800" size="100,100">[[Ataque1]]
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="10" name="Ataque de cauda" tags="" position="625,850" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="11" name="Ataque1" tags="" position="200,700" size="100,100">Foi quase, na próxima você consegue!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="12" name="Batalha Final" tags="" position="525,2200" size="100,100">Faça o login no Google para adicionar TJL${tijolinhos} de crédito.
+
+[JavaScript]
+window.setup = {}
+
+setup.loadError = function (oError) {
+  throw new URIError(
+    &#39;The script &#39; + oError.target.src + &quot; didn&#39;t load correctly.&quot;
+  )
+}
+
+setup.loadScript = function (url, onloadFunction) {
+  const newScript = document.createElement(&#39;script&#39;)
+  newScript.onerror = setup.loadError
+  if (onloadFunction) {
+    newScript.onload = onloadFunction
+  }
+  document.head.appendChild(newScript)
+  newScript.async = true
+  newScript.src = url
+}
+
+setup.loadScript(&#39;https://accounts.google.com/gsi/client&#39;, () =&gt; {
+  google.accounts.id.initialize({
+    client_id: engine.state.get(&#39;GoogleClientID&#39;),
+    callback: (res) =&gt; {
+      if (res.error) {
+        console.error(res.error)
+      } else {
+        const url = &#39;https://feira-de-jogos.dev.br/api/v2/credit&#39;
+        const options = {
+          method: &#39;POST&#39;,
+          headers: {
+            &#39;Accept&#39;: &#39;application/json&#39;,
+            &#39;Authorization&#39;: `Bearer ${res.credential}`,
+            &#39;Content-Type&#39;: &#39;application/json&#39;
+          },
+          body: JSON.stringify({
+            product: engine.state.get(&#39;produto&#39;),
+            value: engine.state.get(&#39;tijolinhos&#39;)
+          })
+        }
+        const req = new Request(url, options)
+        
+        fetch(req)
+          .then((response) =&gt; {
+            if (response.ok) {
+              alert(&quot;Crédito realizado com sucesso!&quot;)
+              console.log(response.status)
+            } else {
+              if (response.status == 429){
+                alert(&quot;Falha: operação duplicada.&quot;)
+              } else {
+                alert(&quot;Erro ao realizar operação de crédito.&quot;)
+              }
+              console.error(response)
+            }
+          }
+        )
+      }
+    },
+  })
+
+  google.accounts.id.prompt((notification) =&gt; {
+    if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+      google.accounts.id.prompt()
+    }
+  })
+})
+[continued]</tw-passagedata><tw-passagedata pid="13" name="Batalha Incendiária" tags="" position="825,750" size="100,100">“Ignarion  escolheu cara e jogou a moeda.”
+
+“A moeda caiu cara, Ignarion  começa”
+
+“Ignarion  jogou Karaku  básico 90atk | 90hp (90 pontos de ataque e 90 pontos de vida)”.
+
+“seu turno, você tem apenas Villentretenmerth   básico, jogou Villentretenmerth  básico 80atk | 100hp.”
+
+Ignarion  - “ você não pode usar um ataque no mesmo turno em que sumonou sua criatura”
+
+“você passou o turno”
+
+“Karaku  básico de Ignarion  usou enraizar 90atk”
+
+“Villentretenmerth perdeu 90hp. O status atual de Villentretenmerth é 80atk | 10hp”
+
+Agora você pode escolher qual ataque utilizar
+
+[[Rajada de fogo]]
+[[Chute]]
+[[Dobra de asas]]</tw-passagedata><tw-passagedata pid="14" name="Batalha Vegetal" tags="" position="200,600" size="100,100">[[Ataque1]]
 [[Ataque 2]]
-[[Ataque 3]]</tw-passagedata><tw-passagedata pid="10" name="Batalha Áquatica" tags="" position="425,825" size="100,100">[[Ataque10]]
-[[Ataque 20]]
-[[Ataque 30]]</tw-passagedata><tw-passagedata pid="11" name="começar" tags="" position="250,275" size="100,100">[JavaScript]
+[[Ataque 3]]</tw-passagedata><tw-passagedata pid="15" name="Batalha Áquatica" tags="" position="500,725" size="100,100">“Aquaris escolheu cara e jogou a moeda.”
+
+“A moeda caiu cara, Aquaris começa”
+
+“Aquaris jogou Villentretenmerth básico 90atk | 90hp (90 pontos de ataque e 90 pontos de vida)”.
+
+“seu turno, você tem apenas Leviatã básico, jogou Leviatã básico 80atk | 100hp.”
+
+Aquaris - “ você não pode usar um ataque no mesmo turno em que sumonou sua criatura”
+
+“você passou o turno”
+
+“Villentretenmerth básico de Aquaris usou rajada de fogo 90atk”
+
+“Leviatã perdeu 90hp. O status atual de Leviatã é 80atk | 10hp”
+
+Agora você pode escolher qual ataque utilizar
+
+[[Manipulação da água]]
+[[Arranhar]]
+[[Ataque de cauda]]</tw-passagedata><tw-passagedata pid="16" name="Chute" tags="" position="850,875" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="17" name="Comprar" tags="" position="1075,1475" size="100,100">Treinador tem 200 moedas de ouro, acaba de comprar Leviatã superior, restando 100 moedas de ouro.
+
+“você recebeu Villentretenmerth avançado”
+
+[[Continuar]]</tw-passagedata><tw-passagedata pid="18" name="Continuar" tags="" position="1025,1600" size="100,100">Caminhando por Solora Town a caminho do centro de treinamento (CT) o jovem treinador se encontra novamente com Aquaris.
+
+Ignarion: E aí como está? vejo que conseguiu um leviatã avançado, isso é ótimo, tenho um presente para lhe dar, encontrei em minhas coisas velhas um leviatã básico, gostaria de te dar de presente, já que sua criatura é o Leviatã, não é muita coisa mas acredito que ajude.
+
+“você recebeu Villentretenmerth básico”
+
+Agora, com 3 Villentretenmerth básico, o treinador junta-os tornando um Villentretenmerth avançado. O treinador agora tem 2 Villentretenmerth avançado, porém só poderá usar um por batalha.
+
+Ao chegar no CT de Aquafloris o treinador foi desafiado por um jovem treinador que também possuía um Leviatã Avançado, será uma batalha à altura.
+
+[[Iniciar batalha]]</tw-passagedata><tw-passagedata pid="19" name="Dobra de asas" tags="" position="975,875" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="20" name="Falar com a Criança" tags="" position="825,1350" size="100,100">Treinador: Meus pêsames, perder algum familiar é realmente complicado.
+
+Criança: Você é um treinador? Você tem criaturas do tipo fogo?
+
+Treinador: estou aprendendo e melhorando para me tornar um grande treinador, porque a pergunta?
+
+Criança: Eu tenho um Villentretenmerth avançado do meu avô, ele disse que um dia ele lutaria ao lado de um grande treinador, você deve ficar com ele.
+[[aceitar]] [[recusar]]</tw-passagedata><tw-passagedata pid="21" name="Falar com a criança" tags="" position="375,1325" size="100,100">Treinador: Meus pêsames, perder algum familiar é realmente complicado.
+
+Criança: Você é um treinador? Você tem criaturas do tipo água?
+
+Treinador: estou aprendendo e melhorando para me tornar um grande treinador, porque a pergunta?
+
+Criança: Eu tenho um Leviatã avançado do meu avô, ele disse que um dia ele lutaria ao lado de um grande treinador, você deve ficar com ele.
+[[Aceitar]] [[Recusar]]</tw-passagedata><tw-passagedata pid="22" name="Iniciar batalha" tags="" position="1025,1725" size="100,100"></tw-passagedata><tw-passagedata pid="23" name="Inicio" tags="" position="275,25" size="100,100">[JavaScript]
+const audioObj = document.createElement(&#39;audio&#39;)
+audioObj.setAttribute(&#39;id&#39;, &#39;conversa&#39;)
+audioObj.setAttribute(&#39;autoplay&#39;, &#39;true&#39;)
+document.body.appendChild(audioObj)
+[continued]
+
+
+Este é um jogo no qual você precisa ler e entender a história que esta acontecendo, e interagindo em determinadas escolhas para que consiga finalmente se tornar o melhor jogador/treinador. Na qual você e seu companheiro tem o objetivo de chegar até a luta final para a disputa, e assim restando apenas um vencedor.
+
+
+   [[Sala]]</tw-passagedata><tw-passagedata pid="24" name="Ir ao CPC" tags="" position="500,1100" size="100,100">Chegando ao CPC você se depara com diversos tipos de criaturas, de todos os tamanhos e forças se recuperando de suas lutas. No CPC você encontra Liona (estudante de criaturas do CPC).
+
+Liona - “Olá jovem treinador, vejo que seu leviatã está gravemente ferido, deixe ele conosco durante um dia para que possamos recuperá-lo, enquanto tratamos de seus ferimentos o Professor pediu para que deixasse alguns equipamentos que facilitarão sua jornada como treinador.
+
+
+“você recebeu uma poção de cura”
+“você recebeu uma poção de cura grande”
+
+Esses itens podem ser usados sem restrições de itens por rodada.
+
+Poção de cura recupera 50hp
+Poção de cura grande recupera 100hp
+
+[[sair do cpc]]</tw-passagedata><tw-passagedata pid="25" name="Ir ao cpc" tags="" position="875,1125" size="100,100">Chegando ao CPC você se depara com diversos tipos de criaturas, de todos os tamanhos e forças se recuperando de suas lutas. No CPC você encontra Fiona (estudante de criaturas do CPC).
+
+Fiona - “Olá jovem treinador, vejo que seu Villentretenmerth está gravemente ferido, deixe ele conosco durante um dia para que possamos recuperá-lo, enquanto tratamos de seus ferimentos o Professor pediu para que deixasse alguns equipamentos que facilitarão sua jornada como treinador.
+
+
+“você recebeu uma poção de cura”
+“você recebeu uma poção de cura grande”
+
+Esses itens podem ser usados sem restrições de itens por rodada.
+
+Poção de cura recupera 50hp
+Poção de cura grande recupera 100hp
+
+[[sair do CPC]]</tw-passagedata><tw-passagedata pid="26" name="Manipulação Da água" tags="" position="675,1850" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="27" name="Manipulação da água" tags="" position="375,850" size="100,100">“Leviatã básico usou manipulação da água 80atk + 20atk adicional”
+
+Leviatã causou 20atk adicional, porque Villentretenmerth é do tipo fogo, e Leviatã do tipo água, que tem vantagem por tipo.
+
+“Leviatã básico nocauteou Villentretenmerth básico de Aquaris”
+
+Você recebeu uma carta de Leviatã básico, ao juntar 3 cartas do tipo básico pode juntar em uma carta do tipo avançado.
+
+ 
+[[resgatar]]</tw-passagedata><tw-passagedata pid="28" name="Negociar" tags="" position="1200,1475" size="100,100">Treinador: não tenho 100 moedas de ouro para gastar, posso comprar por 50.
+
+Comerciante: por 50 não temos um negócio fechado.
+
+Treinador: então ofereço 60.
+
+Comerciante: 90 e temos um negócio
+
+Treinador: então me venda por 75, um meio termo entre nós dois.
+
+Comerciante: perfeito, a criatura é sua
+
+O treinador tinha 200 moedas de ouro, comprou Leviatã superior e ficou com 125 moedas de ouro
+
+“você recebeu Villentretenmerth avançado”
+
+[[Continuar]]</tw-passagedata><tw-passagedata pid="29" name="Passagem sem Título" tags="" position="75,25" size="100,100">produto: 28
+tijolinhos: 100
+GoogleClientID: &#39;108561519217-28gfkb8390gdbs5mebmibdq3qm245g21.apps.googleusercontent.com&#39;
+dadosJogo: undefined
+elementoRemoto: undefined
+--
+
+{embed image: &#39;https://the-fate-of-the-letters.feira-de-jogos.dev.br/capa.png&#39;}
+
+[[Inicio]]</tw-passagedata><tw-passagedata pid="30" name="Prosseguir" tags="" position="950,2075" size="100,100">[[Batalha Final]]</tw-passagedata><tw-passagedata pid="31" name="Próximo passo" tags="" position="525,2075" size="100,100">[[Batalha Final]]</tw-passagedata><tw-passagedata pid="32" name="Rajada de fogo" tags="" position="725,875" size="100,100">“Villentretenmerth básico usou Rajada de fogo 80atk + 20atk adicional”
+
+LeVillentretenmerth viatã causou 20atk adicional, porque Karaku é do tipo planta, e Villentretenmerth do tipo fogo, que tem vantagem por tipo.
+
+“Villentretenmerth básico nocauteou Karaku básico de Ignarion”
+
+Você recebeu uma carta de Villentretenmerth básico, ao juntar 3 cartas do tipo básico pode juntar em uma carta do tipo avançado.
+
+ 
+ [[Resgatar]]</tw-passagedata><tw-passagedata pid="33" name="Recusar" tags="" position="350,1450" size="100,100">Criança: você tem que ficar com ele sim, eu não quero ser um treinador, deixar uma criatura incrível como esta sem fazer nada não faz sentido, pegue:
+
+“Você recebeu Leviatã avançado”
+
+[[continuar]]</tw-passagedata><tw-passagedata pid="34" name="Resgatar" tags="" position="875,1000" size="100,100">Agora você tem 2 Villentretenmerth básico, porém um de seus Villentretenmerth se feriu demais durante a batalha, será necessário ir ao centro de pesquisa da criatura (CPC) para recuperar seu hp.
+
+[[Ir ao cpc]]</tw-passagedata><tw-passagedata pid="35" name="Sala" tags="" position="400,100" size="100,100">Digite o código da sala que você gostaria de entrar.
+{text input for: &#39;sala&#39;}
+
+[[começar]]</tw-passagedata><tw-passagedata pid="36" name="Seguir carreira" tags="" position="50,2100" size="100,100">[[Batalha Final]]</tw-passagedata><tw-passagedata pid="37" name="Seguir em Frente" tags="" position="1075,1350" size="100,100">O Treinador segue em frente, deixa de lado o garoto chorando à beira do lago e entra na loja da cidade.
+
+Em frente à loja há diversos comerciantes comprando e vendendo criaturas. Um deles diz que está vendendo um Leviatã avançado por 100 moedas de ouro
+
+[[Comprar]] [[Negociar]]</tw-passagedata><tw-passagedata pid="38" name="Seguir em frente" tags="" position="600,1325" size="100,100">O Treinador segue em frente, deixa de lado o garoto chorando à beira do lago e entra na loja da cidade.
+
+Em frente à loja há diversos comerciantes comprando e vendendo criaturas. Um deles diz que está vendendo um Leviatã avançado por 100 moedas de ouro
+
+[[comprar]] [[negociar]]</tw-passagedata><tw-passagedata pid="39" name="Solora Town" tags="" position="800,625" size="100,100">INÍCIO DA JORNADA!!
+
+O jovem treinador seguiu uma trilha até encontrar com uma  cidade sempre ensolarada, com campos abertos e um clima agradável. Caracterizada por criaturas do tipo fogo.
+
+Ao se aproximar da cidade, se deparou com um homem pequeno, porém velho.
+
+Ignarion  - “olá meu jovem, eu sou Ignarion, você deve ser o novo treinador do baralho de fogo, seja bem vindo à Solora Town. O professor me falou de você, vejo que tem um Villentretenmerth, é um raríssimo dragão da linhagem dourada que pode se transformar em outros seres.
+
+Meu papel é te transformar em um verdadeiro treinador com fortes criaturas e com estratégias. o Villentretenmerth consegue fazer coisas incríveis, se for bem treinado. Seu Villentretenmerth tem 100 pontos de vida e 80 pontos de ataque, você pode usar as criaturas para mobilidade ou para destruição de obstáculos fora de batalha. Durante a sua rodada você pode jogar sua criatura, mas só pode atacar na próxima rodada. Algumas cartas de suporte podem ajudar a recuperar sua criatura, e essa é a base do jogo, você vence se derrotar a criatura do seu oponente, ou ele desistir. O primeiro treinador a jogar é tirado no cara ou coroa”
+
+Ignarion - “para vermos se você entendeu como funcionam as regras vamos fazer uma batalha rápida”
+
+Vamos para a nossa primeira [[Batalha Incendiária]]</tw-passagedata><tw-passagedata pid="40" name="Virelia Town" tags="" position="200,475" size="100,100">Vamos para nossa primeira [[Batalha Vegetal]]</tw-passagedata><tw-passagedata pid="41" name="aceitar" tags="" position="825,1475" size="100,100">“Você recebeu 1x Villentretenmerth avançado”
+
+[[Continuar]]</tw-passagedata><tw-passagedata pid="42" name="arranhar" tags="" position="375,1850" size="100,100">Seu ataque foi fraco demais, na próxima pense nos ensinamentos sobre os tipos de criatura!
+
+Fim de Jogo!
+
+{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="43" name="avançar" tags="" position="525,1950" size="100,100">O treinador então saiu da cidade em busca de uma nova jornada, agora que sua criatura tinha chegado em seu nível máximo.
+
+[[Próximo passo]]</tw-passagedata><tw-passagedata pid="44" name="começar" tags="" position="500,250" size="100,100">[JavaScript]
 window.setup = {}
 
 window.setup.loadError = function (oError) {
@@ -448,143 +723,84 @@ THE FATE OF THE LETTERS
  
 [[ Água ]]
 [[ Fogo ]]
-[[ Planta ]]</tw-passagedata><tw-passagedata pid="12" name="Seguir carreira" tags="" position="100,1200" size="100,100">[[Batalha Final]]
+[[ Planta ]]</tw-passagedata><tw-passagedata pid="45" name="comprar" tags="" position="575,1450" size="100,100">Treinador tem 200 moedas de ouro, acaba de comprar Leviatã superior, restando 100 moedas de ouro.
 
-</tw-passagedata><tw-passagedata pid="13" name="Solora Town" tags="" position="700,675" size="100,100">Vamos para a nossa primeira [[Batalha Incendiária]]</tw-passagedata><tw-passagedata pid="14" name="Virelia Town" tags="" position="75,675" size="100,100">Vamos para nossa primeira [[Batalha Vegetal]]</tw-passagedata><tw-passagedata pid="15" name="treinador de Fogo" tags="" position="675,550" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
+“você recebeu Leviatã avançado”
+
+[[continuar]]</tw-passagedata><tw-passagedata pid="46" name="continuar" tags="" position="525,1600" size="100,100">Caminhando por Aquafloris a caminho do centro de treinamento (CT) o jovem treinador se encontra novamente com Aquaris.
+
+Aquaris: E aí como está? vejo que conseguiu um leviatã avançado, isso é ótimo, tenho um presente para lhe dar, encontrei em minhas coisas velhas um leviatã básico, gostaria de te dar de presente, já que sua criatura é o Leviatã, não é muita coisa mas acredito que ajude.
+
+“você recebeu Leviatã básico”
+
+Agora, com 3 Leviatã básico, o treinador junta-os tornando um leviatã avançado. O treinador agora tem 2 Leviatã avançado, porém só poderá usar um por batalha.
+
+Ao chegar no CT de Aquafloris o treinador foi desafiado por um jovem treinador que também possuía um Leviatã Avançado, será uma batalha à altura.
+
+[[iniciar batalha]]</tw-passagedata><tw-passagedata pid="47" name="iniciar batalha" tags="" position="525,1725" size="100,100">“A criança escolheu cara e jogou a moeda.”
+
+“A moeda caiu coroa, o treinador começa”
+
+“Você jogou Leviatã avançado 100atk | 120hp”
+
+“você passou o turno”
+
+“criança joga Leviatã avançado 100atk | 120hp”
+
+“A criança passou o turno”
+
+Escolha um ataque
+
+[[laminas de dragão]]
+[[Manipulação Da água]]
+[[arranhar]]
+[[Ataque de Cauda]]</tw-passagedata><tw-passagedata pid="48" name="laminas de dragão" tags="" position="475,1850" size="100,100">“Leviatã avançado do treinador usou um ataque novo laminas de dragão 130atk”
+
+“Leviatã avançado da criança perdeu 130hp. O status atual de Leviatã é morto”
+
+“treinador venceu a batalha”
+
+Como recompensa pela sua primeira vitória no CT, o treinador recebeu um Leviatã avançado, que logo foi fundido com os outros 2 Leviatã avançado que já tinha se tornando então um Leviatã superior.
+
+[[avançar]]</tw-passagedata><tw-passagedata pid="49" name="negociar" tags="" position="700,1450" size="100,100">Treinador: não tenho 100 moedas de ouro para gastar, posso comprar por 50.
+
+Comerciante: por 50 não temos um negócio fechado.
+
+Treinador: então ofereço 60.
+
+Comerciante: 90 e temos um negócio
+
+Treinador: então me venda por 75, um meio termo entre nós dois.
+
+Comerciante: perfeito, a criatura é sua
+
+O treinador tinha 200 moedas de ouro, comprou Leviatã superior e ficou com 125 moedas de ouro
+
+“você recebeu Leviatã avançado”
+
+[[continuar]]</tw-passagedata><tw-passagedata pid="50" name="recusar" tags="" position="950,1475" size="100,100">Criança: você tem que ficar com ele sim, eu não quero ser um treinador, deixar uma criatura incrível como esta sem fazer nada não faz sentido, pegue:
+
+“Você recebeu Villentretenmerth avançado”</tw-passagedata><tw-passagedata pid="51" name="resgatar" tags="" position="500,975" size="100,100">Agora você tem 2 Leviatã básico, porém um de seus Leviatã se feriu demais durante a batalha, será necessário ir ao centro de pesquisa da criatura (CPC) para recuperar seu hp.
+
+[[Ir ao CPC]]</tw-passagedata><tw-passagedata pid="52" name="sair do CPC" tags="" position="875,1225" size="100,100">Caminhando pela cidade, o treinador repara em uma criança chorando em um canto sozinha
+
+[[Falar com a Criança]] [[Seguir em Frente]]</tw-passagedata><tw-passagedata pid="53" name="sair do cpc" tags="" position="500,1225" size="100,100">Caminhando pela cidade, o treinador repara em uma criança chorando à beira de um lago.
+
+[[Falar com a criança]] [[Seguir em frente]]</tw-passagedata><tw-passagedata pid="54" name="treinador de Fogo" tags="" position="800,500" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
 
 
 Como primeiro passo da jornada o treinador de criaturas místicas deve viajar em busca de conseguir mais criaturas para seu baralho.
 
 
-[[Solora Town]] – Uma cidade sempre ensolarada, com campos abertos e um clima agradável. Caracterizada por criaturas do tipo fogo.</tw-passagedata><tw-passagedata pid="16" name="treinador de planta" tags="" position="75,550" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
+[[Solora Town]] – Uma cidade sempre ensolarada, com campos abertos e um clima agradável. Caracterizada por criaturas do tipo fogo.</tw-passagedata><tw-passagedata pid="55" name="treinador de planta" tags="" position="200,375" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
 
 
 Como primeiro passo da jornada o treinador de criaturas místicas deve escolher a cidade para onde viajará em busca de conseguir mais criaturas para seu baralho.
 
 
-[[Virelia Town]] – Uma cidade envolta por trepadeiras e plantas rasteiras que crescem em cada construção. Caracterizada por criaturas do tipo planta.</tw-passagedata><tw-passagedata pid="17" name="treinador de Água" tags="" position="400,550" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
+[[Virelia Town]] – Uma cidade envolta por trepadeiras e plantas rasteiras que crescem em cada construção. Caracterizada por criaturas do tipo planta.</tw-passagedata><tw-passagedata pid="56" name="treinador de Água" tags="" position="500,500" size="100,100">Professor - “escolha com sabedoria a sua cidade a fim de fortalecer seu tipo de deck escolhido, você pode ter tipos diferentes de criaturas nos baralhos, e todas as cidades contém todo tipo de criatura, porém são caracterizadas por criaturas de cada tipo.
 
 
 Como primeiro passo da jornada o treinador de criaturas místicas deve escolher a cidade para onde viajará em busca de conseguir mais criaturas para seu baralho.
 
-[[Aquafloris Village]] – Uma pequena vila próxima a rios e cachoeiras com muitas flores. Caracterizada por criaturas do tipo água.</tw-passagedata><tw-passagedata pid="18" name="Inicio" tags="" position="275,25" size="100,100">[JavaScript]
-const audioObj = document.createElement(&#39;audio&#39;)
-audioObj.setAttribute(&#39;id&#39;, &#39;conversa&#39;)
-audioObj.setAttribute(&#39;autoplay&#39;, &#39;true&#39;)
-document.body.appendChild(audioObj)
-[continued]
-
-
-Este é um jogo no qual você precisa ler e entender a história que esta acontecendo, e interagindo em determinadas escolhas para que consiga finalmente se tornar o melhor jogador/treinador. Na qual você e seu companheiro tem o objetivo de chegar até a luta final para a disputa, e assim restando apenas um vencedor.
-
-
-   [[Sala]] 
-
-
-</tw-passagedata><tw-passagedata pid="19" name="Sala" tags="" position="400,100" size="100,100">Digite o código da sala que você gostaria de entrar.
-{text input for: &#39;sala&#39;}
-
-[[começar]] </tw-passagedata><tw-passagedata pid="20" name="Passagem sem Título" tags="" position="75,25" size="100,100">produto: 28
-tijolinhos: 100
-GoogleClientID: &#39;108561519217-28gfkb8390gdbs5mebmibdq3qm245g21.apps.googleusercontent.com&#39;
-dadosJogo: undefined
-elementoRemoto: undefined
---
-
-{embed image: &#39;https://the-fate-of-the-letters.feira-de-jogos.dev.br/capa.png&#39;}
-
-[[Inicio]]
-</tw-passagedata><tw-passagedata pid="21" name="Ataque10" tags="" position="400,1025" size="100,100">Você acabou de conquistar sua primeira vitória!
- 
- [[Próximo passo]]</tw-passagedata><tw-passagedata pid="22" name="Ataque 20" tags="" position="500,1050" size="100,100">Foi quase, na próxima você consegue!
-
-Fim de Jogo!
-
-{restart link, label: &#39;Jogar de novo!&#39;}
-</tw-passagedata><tw-passagedata pid="23" name="Ataque 30" tags="" position="600,1075" size="100,100">Foi quase, na próxima você consegue!
-
-Fim de Jogo!
-
-{restart link, label: &#39;Jogar de novo!&#39;}
-</tw-passagedata><tw-passagedata pid="24" name="Próximo passo" tags="" position="400,1200" size="100,100">[[Batalha Final]]</tw-passagedata><tw-passagedata pid="25" name="Ataque 60" tags="" position="925,950" size="100,100">Foi quase, na próxima você consegue!
-
-Fim de Jogo!
-
-{restart link, label: &#39;Jogar de novo!&#39;}</tw-passagedata><tw-passagedata pid="26" name="Ataque 50" tags="" position="800,950" size="100,100">Foi quase, na próxima você consegue!
-
-Fim de Jogo!
-
-{restart link, label: &#39;Jogar de novo!&#39;}
-</tw-passagedata><tw-passagedata pid="27" name="Ataque 40" tags="" position="675,950" size="100,100">Você acabou de conquistar sua primeira vitória!
- 
- [[Prosseguir]]</tw-passagedata><tw-passagedata pid="28" name="Prosseguir" tags="" position="775,1200" size="100,100">[[Batalha Final]] </tw-passagedata><tw-passagedata pid="29" name="Batalha Final" tags="" position="425,1375" size="100,100">Faça o login no Google para adicionar TJL${tijolinhos} de crédito.
-
-[JavaScript]
-window.setup = {}
-
-setup.loadError = function (oError) {
-  throw new URIError(
-    &#39;The script &#39; + oError.target.src + &quot; didn&#39;t load correctly.&quot;
-  )
-}
-
-setup.loadScript = function (url, onloadFunction) {
-  const newScript = document.createElement(&#39;script&#39;)
-  newScript.onerror = setup.loadError
-  if (onloadFunction) {
-    newScript.onload = onloadFunction
-  }
-  document.head.appendChild(newScript)
-  newScript.async = true
-  newScript.src = url
-}
-
-setup.loadScript(&#39;https://accounts.google.com/gsi/client&#39;, () =&gt; {
-  google.accounts.id.initialize({
-    client_id: engine.state.get(&#39;GoogleClientID&#39;),
-    callback: (res) =&gt; {
-      if (res.error) {
-        console.error(res.error)
-      } else {
-        const url = &#39;https://feira-de-jogos.dev.br/api/v2/credit&#39;
-        const options = {
-          method: &#39;POST&#39;,
-          headers: {
-            &#39;Accept&#39;: &#39;application/json&#39;,
-            &#39;Authorization&#39;: `Bearer ${res.credential}`,
-            &#39;Content-Type&#39;: &#39;application/json&#39;
-          },
-          body: JSON.stringify({
-            product: engine.state.get(&#39;produto&#39;),
-            value: engine.state.get(&#39;tijolinhos&#39;)
-          })
-        }
-        const req = new Request(url, options)
-        
-        fetch(req)
-          .then((response) =&gt; {
-            if (response.ok) {
-              alert(&quot;Crédito realizado com sucesso!&quot;)
-              console.log(response.status)
-            } else {
-              if (response.status == 429){
-                alert(&quot;Falha: operação duplicada.&quot;)
-              } else {
-                alert(&quot;Erro ao realizar operação de crédito.&quot;)
-              }
-              console.error(response)
-            }
-          }
-        )
-      }
-    },
-  })
-
-  google.accounts.id.prompt((notification) =&gt; {
-    if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
-      google.accounts.id.prompt()
-    }
-  })
-})
-[continued]
-</tw-passagedata></tw-storydata></html>
+[[Aquafloris Village]] – Uma pequena vila próxima a rios e cachoeiras com muitas flores. Caracterizada por criaturas do tipo água.</tw-passagedata></tw-storydata></html>
